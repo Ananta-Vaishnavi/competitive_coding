@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+ int q,n,t;
+for(int i=1;i<=t;i++)
+  {
+  
+	scanf("%d%d",&q,&n);
+	
+	if(q==1)
+	{
+		
+    int sum=0,i;
+    for(int i=1;i<=n;i++)
+    {
+        sum+=i;
+    }
+    printf("%d",sum);
+	}
+	if(q==2)
+	{
+	int pro=1,i;
+    for(i=1;i<=n;i++)
+    {
+        pro*=i;
+    }    
+   printf("%d",pro);	
+	}
+}
+}
