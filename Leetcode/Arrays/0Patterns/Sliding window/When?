@@ -1,3 +1,9 @@
 A question that uses a list or data type that must be iterated over in sequence is a great candidate for a sliding window.
 Lastly, one of the biggest clues that one can use a sliding window is the word contiguous. Remember: in the context of programming, contiguous means that the elements are sequentially placed next to each other.
 Some common data structures one will be using a sliding window on are strings, arrays, and even linked lists.
+This questions checks off nearly all of the criteria mentioned above for using a sliding window. It has:
+
+1] String as input.
+2] Contiguous elements requirement.
+3] The entire string must be iterated over.
+4] The longest substring must be found.
