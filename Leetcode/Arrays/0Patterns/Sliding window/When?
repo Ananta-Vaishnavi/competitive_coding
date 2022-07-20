@@ -7,3 +7,16 @@ This questions checks off nearly all of the criteria mentioned above for using a
 2] Contiguous elements requirement.
 3] The entire string must be iterated over.
 4] The longest substring must be found.
+
+
+sliding window
+array sum
+sub-array/sub-string
+largest/smallest/maximum/minimum
+k
+———————————————————————
+two types of sliding window
+1}  fixed size
+      it is given in the question
+2}  variable size slide window
+      it is not given in the question instead it is asked to find the maximum or minimum size sliding window
