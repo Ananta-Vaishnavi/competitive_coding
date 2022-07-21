@@ -9,7 +9,7 @@ def FirstNegativeInteger( A, N, K):
     while end!=len(A):
         if A[end]<0 and start!=0:
             neg.append(A[end])
-        if start>0 and A[start-1]==neg[0]:
+        if neg and start>0 and A[start-1]==neg[0]:
             neg.pop(0)
         if neg:
             answer.append(neg[0])
