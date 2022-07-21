@@ -1,14 +1,14 @@
 -----------------------------------CONSTANT WINDOW SIZE---------------------------------------------
 
-                   Max Sum Subarray of size K           
+Max Sum Subarray of size K           
 https://practice.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1
 
 
-               First negative integer in every window of size k   
+First negative integer in every window of size k   
 https://practice.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1
 
 
-                 Count Occurences of Anagrams      
+ Count Occurences of Anagrams      
 https://practice.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1
 
 
