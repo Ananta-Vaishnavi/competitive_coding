@@ -4,3 +4,7 @@ I did this to store the first basic result of the sliding window which can be up
 Next, I have used a while loop to transverse through the array and I increment the two pointers start and the end.
 Later I updated the list accordingly by popping when the start-1 element equals the first element in the list.
 I have appended zero whenever there was nothing in list.
+
+
+Things that I have learnt:
+Whenever there is a empty list you cannot return anyhting and that time for or if loop fails so we have to use if list_name
