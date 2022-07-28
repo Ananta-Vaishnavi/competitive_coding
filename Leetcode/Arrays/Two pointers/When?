@@ -1,0 +1,10 @@
+Two pointers is really an easy and effective technique that is typically used for searching pairs in a sorted array.
+
+In many problems involving collections such as arrays or lists, we have to analyze each element of the collection compared to its other elements.There are many approaches
+to solving problems like these. For example we usually start from the first index and iterate through the data structure one or more times depending on how we 
+implement our code.Sometimes we may even have to create an additional data structure depending on the problem's requirements. This approach might give us the correct 
+result, but it likely won't give us the most space and time efficient result.This is why the two-pointer technique is efficient. We are able to process two elements per 
+loop instead of just one. Common patterns in the two-pointer approach entail:
+1> Two pointers, each starting from the beginning and the end until they both meet.
+2> One pointer moving at a slow pace, while the other pointer moves at twice the speed.
+These patterns can be used for string or array questions. They can also be streamlined and made more efficient by iterating through two parts of an object simultaneously.
