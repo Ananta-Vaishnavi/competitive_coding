@@ -1,0 +1,31 @@
+-->Two pointers is really an easy and effective technique that is typically used for searching pairs in a sorted array.
+
+
+
+-->Two-pointer technique is commonly used to solve array problems very efficiently. Whenever an array question deals with finding 
+-->Two numbers in an array that satisfy a certain condition, either directly or indirectly, two-pointer can be used.
+    not all scenarios can be solved by setting the two pointers at opposite ends — some problems may require pointers to begin at the same spot. Others may require pointers to move at different speeds. Two-pointer is a framework to address search problems in arrays, 
+    but many of the details relies on the programmer’s critical thinking and understanding of the problem.
+src:----> (https://medium.com/swlh/two-pointer-technique-solving-array-problems-at-light-speed-56a77ee83d16)
+
+
+
+But two-pointer is not for every problem, and trying to use it as a magical wand can lead to neglecting certain cases.
+In order to use two-pointer technique, one should identify or verify the following items:
+
+
+
+
+
+1.	Does the problem request a search of two or more items? If this is not directly what the question is asking for, can it be reduced to such a task?
+2.	Does there exist an initialization of two pointers such that the rest of the algorithm can function properly for all cases?
+3.	Does there exist some sort of function to evaluate the goodness of the current locations of the pointers?
+4.	Based on the goodness, does there exist a universal rationale to move the pointers to maximize the goodness?
+5.	Could the moving of the pointers eliminate valid solutions?
+6.	Should the array be sorted before pointers are initialized?
+7.	Should pointers be moving at different speeds?
+8.	Should pointers be updated one at a time or simultaneously?
+9.	How can additional aspects of efficient computing, like creating lists to store previous pointer elements, assist pointers in further ruling out 
+    redundant solutions or to solve the problem more efficiently?
+10.	How should relationships between three or more pointers be managed (if applicable to the problem)?
+11.	If managing three or more pointers is not possible or very complex, can it be reduced to multiple two-pointer problems?
