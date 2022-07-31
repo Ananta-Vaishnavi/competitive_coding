@@ -17,6 +17,7 @@ In order to use two-pointer technique, one should identify or verify the followi
 
 
 
+
 1.	Does the problem request a search of two or more items? If this is not directly what the question is asking for, can it be reduced to such a task?
 2.	Does there exist an initialization of two pointers such that the rest of the algorithm can function properly for all cases?
 3.	Does there exist some sort of function to evaluate the goodness of the current locations of the pointers?
@@ -29,3 +30,4 @@ In order to use two-pointer technique, one should identify or verify the followi
     redundant solutions or to solve the problem more efficiently?
 10.	How should relationships between three or more pointers be managed (if applicable to the problem)?
 11.	If managing three or more pointers is not possible or very complex, can it be reduced to multiple two-pointer problems?
+-----> https://towardsdatascience.com/two-pointer-approach-python-code-f3986b602640
