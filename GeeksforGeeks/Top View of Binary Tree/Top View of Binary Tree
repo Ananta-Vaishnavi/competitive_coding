@@ -1,0 +1,26 @@
+#User function Template for python3
+
+# Tree Node
+# class Node:
+#     def __init__(self, val):
+#         self.right = None
+#         self.data = val
+#         self.left = None
+class Solution:
+    def topView(self, root):
+        if not root:
+            return []
+        col = 0
+        q = [[root, col]]
+        res = {}
+        while q:
+            node, col = q.pop(0)
+            if col not in res:
+                res[col] = node.data
+            if node.left:
+                q.append([node.left, col-1])
+            if node.right:
+                q.append([node.right, col+1])
+        ans = [res[i] for i in sorted(res.keys())]
+        return ans
+
